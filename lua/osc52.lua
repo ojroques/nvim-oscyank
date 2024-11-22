@@ -132,7 +132,7 @@ function M.copy_register(register)
 end
 
 function M.copy_operator_text(text)
-	return M.copy(text)
+  return M.copy(text)
 end
 
 -------------------- SETUP ---------------------------------
