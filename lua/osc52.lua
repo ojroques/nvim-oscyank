@@ -131,6 +131,10 @@ function M.copy_register(register)
   return M.copy(text)
 end
 
+function M.copy_operator_text(text)
+	return M.copy(text)
+end
+
 -------------------- SETUP ---------------------------------
 function M.setup(user_options)
   if user_options then
